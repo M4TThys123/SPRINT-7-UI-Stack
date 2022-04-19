@@ -1,18 +1,25 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
-# Titel
+# 🚀 Visitekaartje V2 x UI-Stack
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
-## Wireflow
-<!-- Toon de wireflow -->
+## Wireflow & Breakdown schetsen
 
-## Breakdown
-<!-- Toon de breakdown schets -->
+### 〰️ Empty State
+![Empty State](https://github.com/M4TThys123/connect-your-tribe-ui-stack/blob/main/assets/emptyState.JPG)
+
+### 🚫 Error State
+![Error State](https://github.com/M4TThys123/connect-your-tribe-ui-stack/blob/main/assets/errorState.JPG)
+
+### ⏳ Loading State
+![Loading State](https://github.com/M4TThys123/connect-your-tribe-ui-stack/blob/main/assets/lodingState.JPG)
+
 
 ## Code 
-<!-- Leg de code uit die je gebruikt om de verschillende states van de UI-Stack te tonen -->
+HTML
+
+JavaScript
 
 
+  
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)

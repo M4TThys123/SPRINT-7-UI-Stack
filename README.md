@@ -14,9 +14,43 @@
 
 
 ## Code 
-HTML
+HTML:
+```html
+<div class="preloader-wrapper">
+  <span class="preloader"></span>
+</div>
+```
 
-JavaScript
+JavaScript:
+```javascript
+// Preloader
+const preLoaderWrapper = document.querySelector(".preloader-wrapper");
+
+// Fetch API data
+fetch(apiUrl)
+  .then((res) => {
+
+    if (res.status >= 200 && res.status <= 299) {
+      preLoaderWrapper.classList.add("hide");
+      return res.json();
+    } else {
+      preLoaderWrapper.classList.add("hide");
+    }
+  })
+
+  // Filter data to specific person
+  .then((res) => {
+    const boudewijnData = res.data.find((student) => student.memberId === 18);
+
+    // Put data into HTML
+
+    // Title
+    nameTitle.textContent = `${boudewijnData.name} ${boudewijnData.surname}`;
+
+    // Bio
+    bioText.textContent = boudewijnData.bio;
+  })
+```
 
 
   

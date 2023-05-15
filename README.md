@@ -40,12 +40,12 @@ fetch(apiUrl)
 
   // Filter data to specific person
   .then((res) => {
-    const boudewijnData = res.data.find((student) => student.memberId === 18);
+    const data = res.data.find((student) => student.memberId === 18);
 
     // Put data into HTML
 
     // Title
-    nameTitle.textContent = `${boudewijnData.name} ${boudewijnData.surname}`;
+    nameTitle.textContent = `${data.name} ${data.surname}`;
 
     // Bio
     bioText.textContent = boudewijnData.bio;
